@@ -1,7 +1,7 @@
 # Recipe-website
 ###### Recipe search site Food makes it easy to access available recipes and print them when needed
 # Live demo 📺
-[Recipe Website](https://kytc-front-end.github.io/Recipe-SE/index.html](https://sajara20.github.io/Recipe-website-/Recipe-SE/index.html)
+[Recipe Website](https://sajara20.github.io/Recipe-website-/Recipe-SE/index.html)
 # User Stories 📖
 #### As user:
  ###### I can see all recipe
