@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bbcc87acad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="icon" href="./images/icon_1.ico" />
+    <title>Recipe Website</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="mobile-container">
+      <section class="topnav">
+        <img class="header-bottom-left-img" src="./images/logo 1.png" />
+        <section id="myLinks">
+          <section class="header-title-Mid">
+            <nav><a href="index.html">HOME</a></nav>
+            <nav><a href="List.html">RECIPE</a></nav>
+            <nav><a href="Submit.html">SUBMIT</a></nav>
+          </section>
+          <section class="header-title-right">
+            <section class="search-box">
+              <input type="text" class="input" placeholder="Search...." />
+              <section class="btn btn-common">
+                <i class="fas fa-search"></i>
+              </section>
+            </section>
+          </section>
+        </section>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </section>
+    </section>
+
+    <header class="header-title">
+      <section class="header-title-left">
+        <nav class="nav">
+          <img class="header-title-left-img" src="./images/logo 1.png" />
+        </nav>
+      </section>
+      <section class="header-title-Mid">
+        <nav><a href="index.html">HOME</a></nav>
+        <nav><a href="List.html">RECIPE</a></nav>
+        <nav><a href="Submit.html">SUBMIT</a></nav>
+      </section>
+      <section class="header-title-right">
+        <section class="search-box">
+          <input type="text" class="input" placeholder="Search...." />
+          <section class="btn btn-common">
+            <i class="fas fa-search"></i>
+          </section>
+        </section>
+      </section>
+    </header>
+    <hr />
+    <!-- Hero Section -->
+    <section class="hero-contaier">
+      <section class="hero-title">
+        <h2>Its All About Good <br />Food & Taste</h2>
+        <p class="hero-content">
+          A site that specializes in<br />
+          providing many recipes and <br />includes many types of food
+        </p>
+        <button class="hero-btn">Learn More</button>
+      </section>
+      <section class="hero-img">
+        <img src="./images/Group 67.png" />
+      </section>
+    </section>
+
+    <!-- Features Section -->
+    <section class="feture-contaier">
+      <h2 class="feature-title">Categories</h2>
+      <section class="feature-content">
+        <section class="feature-content-cards">
+          <i class="fa-solid fa-champagne-glasses"></i>
+          <p>Drinks</p>
+        </section>
+        <section class="feature-content-cards">
+          <i class="fa-solid fa-burger"></i>
+          <p>Meats</p>
+        </section>
+        <section class="feature-content-cards">
+          <i class="fa-solid fa-stroopwafel"></i>
+          <p>Sweets</p>
+        </section>
+        <section class="feature-content-cards">
+          <i class="fa-brands fa-pagelines"></i>
+          <p>Plants</p>
+        </section>
+      </section>
+    </section>
+
+    <!-- Best Recipe Section -->
+    <section class="Recipe-contaier">
+      <h2 class="Recipe-title">Best Recipe</h2>
+      <section class="Recipe-content">
+        <section class="Recipe-content-card">
+          <img
+            class="Recipe-content-card-img"
+            src="./images/Rectangle 51.png"
+          />
+          <h2>Beef Steak</h2>
+          <p>
+            pieces of beef steak, each piece weighing approximately 250 grams.
+          </p>
+          <i class="fa-solid fa-circle-arrow-right"
+            ><a href="Details.html">View Recipe</a></i
+          >
+        </section>
+        <section class="Recipe-content-card">
+          <img
+            class="Recipe-content-card-img"
+            src="./images/Rectangle 50.png"
+          />
+          <h2>Caesar Salad</h2>
+          <p>A cup and a half of biscuit crumbs. Half a cup of white sugar.</p>
+          <i class="fa-solid fa-circle-arrow-right"
+            ><a href="Details.html">View Recipe</a></i
+          >
+        </section>
+        <section class="Recipe-content-card">
+          <img
+            class="Recipe-content-card-img"
+            src="./images/Rectangle 33.png"
+          />
+          <h2>Doughnut</h2>
+          <p>
+            2 and a half cups of flour. 3 tablespoons of sugar. 60 grams of
+            butter.
+          </p>
+          <i class="fa-solid fa-circle-arrow-right"
+            ><a href="Details.html">View Recipe</a></i
+          >
+        </section>
+      </section>
+    </section>
+
+    <!----Footer Section-->
+    <hr />
+    <footer class="footer-container">
+      <section class="footer-title">
+        <section class="footer-title-left">
+          <nav class="nav">
+            <img class="footer-title-left-img" src="./images/logo 1.png" />
+          </nav>
+        </section>
+        <section class="footer-title-Mid">
+          <nav><a href="index.html">HOME</a></nav>
+          <nav><a href="List.html">RECIPE</a></nav>
+          <nav><a href="Submit.html">SUBMIT</a></nav>
+        </section>
+        <section class="footer-title-right">
+          <section class="social-box">
+            <span> <i class="fa-brands fa-facebook-f"></i></span>
+            <span> <i class="fa-brands fa-instagram"></i></span>
+            <span> <i class="fa-brands fa-twitter"></i></span>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

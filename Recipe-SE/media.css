@@ -1,0 +1,401 @@
+@media (max-width: 600px) {
+  .header-title {
+    display: none;
+  }
+
+  .mobile-container {
+    display: block;
+    background-size: cover;
+    max-width: 480px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+  }
+  .header-bottom-left-img {
+    width: 150px;
+  }
+
+  .header-title-Mid {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .header-title-right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav nav {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon i {
+    display: block;
+    position: absolute;
+    right: 70px;
+    top: 44px;
+    color: #ea6d27;
+    font-size: 20px;
+  }
+  .hero-contaier {
+    padding-top: 10px;
+    width: 100%;
+    gap: 0;
+  }
+
+  .hero-img {
+    margin-right: 16px;
+    width: 200px;
+    flex: 0 0 auto;
+  }
+
+  .hero-img img {
+    display: none;
+  }
+  .hero-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img {
+    width: 0;
+  }
+
+  .hero-title h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .hero-title p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  section.hero-title {
+    line-height: initial;
+  }
+
+  section.hero-contaier {
+    align-items: center;
+  }
+
+  .feature-content {
+    flex-direction: column;
+  }
+
+  .feture-contaier {
+    margin-top: 36px;
+    height: auto;
+    padding: 0 15px;
+  }
+
+  .feature-content-cards {
+    width: 100%;
+  }
+
+  .Recipe-contaier {
+    height: auto;
+    padding-bottom: 30px;
+    margin: 5px;
+  }
+
+  .Recipe-content {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .Recipe-content-cards {
+    flex-direction: column;
+  }
+
+  .Recipe-content-cards {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+  }
+  .Recipe-content-card h2,
+  p {
+    font-size: 75%;
+  }
+
+  .footer-title {
+    height: auto;
+    padding: 30px 11px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-title-Mid {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+  }
+  .footer-title-right {
+    justify-content: center;
+  }
+  /* Detailes Page */
+
+  .Details-container {
+    padding-left: 30px;
+    padding-right: 35px;
+  }
+
+  .Details-title {
+    margin-top: 36px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+  .Details-content .right_box {
+    margin-left: 16px;
+  }
+
+  .Details-content-left .icon {
+    width: 33px;
+    height: 33px;
+  }
+  .Ingredients-container {
+    flex-direction: column;
+    height: 660px;
+  }
+
+  .Ingredients-image img {
+    width: 100%;
+    height: 311px;
+  }
+
+  .Ingredients-title h1 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+
+  .Ingredients-content {
+    line-height: 30px;
+    padding-left: 10px;
+  }
+
+  .Ingredients-content p {
+    font-size: 12px;
+  }
+
+  .Instructions-container {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .Instructions-image img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .Instructions-container h1 {
+    font-size: 17px;
+  }
+
+  .Instructions-content {
+    line-height: 30px;
+  }
+
+  .Instructions-content p {
+    width: 333px;
+    font-size: 12px;
+  }
+  .Instructions-content span {
+    padding: 2px;
+    font: 10px Arial, sans-serif;
+  }
+  h4 {
+    font-size: small;
+  }
+  .fa-solid {
+    font-size: large;
+  }
+
+  .Details-content-right p {
+    font-size: 12px;
+  }
+
+  
+#submit-name, #submit-method, #submit-ingredients {
+  padding: 3px;
+  font-size: 16px;
+  width: 262px;
+  font-size: 8px;
+
+}
+
+.submit-imge img{
+  width: 288px;
+  height: 169px;
+}
+.submit{
+  width: 123px;
+}
+.submit-contaier{
+  padding: 37px 0;
+
+}
+
+
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .hero-contaier {
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .hero-img {
+    margin-right: 16px;
+    width: 200px;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+  }
+
+  .hero-title h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .hero-title p {
+    font-size: 13px;
+  }
+
+  section.hero-title {
+    line-height: initial;
+  }
+
+  section.hero-contaier {
+    align-items: center;
+  }
+  .footer-container {
+    gap: 110px;
+    justify-content: space-between;
+    padding-inline: 16px;
+  }
+
+  .header-bottom-right {
+    padding-right: 0;
+    gap: 25px;
+  }
+
+  .header-bottom {
+    padding-inline: 15px;
+  }
+
+  .header-bottom-left {
+    margin-left: 10px;
+  }
+
+  .feature-content-cards p {
+    font-size: 17px;
+  }
+
+  .feature-content {
+    padding-inline: 15px;
+    gap: 15px;
+  }
+
+  .Details-container {
+    padding-left: 30px;
+    padding-right: 35px;
+  }
+
+  .Details-title {
+    margin-top: 36px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Details-content .right_box {
+    margin-left: 16px;
+  }
+
+  .Details-content-left .icon {
+    width: 33px;
+    height: 33px;
+  }
+  .Ingredients-container {
+    flex-direction: row;
+    height: 300px;
+  }
+
+  .Ingredients-image img {
+    width: 300px;
+    height: 276px;
+  }
+
+  .Ingredients-title h1 {
+    line-height: 28px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .Ingredients-content {
+    line-height: 30px;
+    padding-left: 32px;
+  }
+
+  .Ingredients-content p {
+    font-size: 12px;
+  }
+
+  .Instructions-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+  }
+
+  .Instructions-image img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .Instructions-container h1 {
+    font-size: 17px;
+  }
+
+  .Instructions-content {
+    line-height: 30px;
+  }
+
+  .Instructions-content p {
+    font-size: 12px;
+  }
+  .Instructions-content span {
+    padding: 2px;
+    font: 10px Arial, sans-serif;
+  }
+  h4 {
+    font-size: small;
+  }
+  .fa-solid {
+    font-size: large;
+  }
+
+  .Details-content-right p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1024px) {
+}
